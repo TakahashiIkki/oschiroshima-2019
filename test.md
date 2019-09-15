@@ -12,8 +12,6 @@ EXPLAIN ANALYZE SELECT * FROM customers WHERE name = 'sylvester41';
 
 ```sql
 CREATE INDEX customers_name_idx ON customers (name);
-EXPLAIN ANALYZE SELECT * FROM customers WHERE name = 'sylvester41';
-
 -- ANALYZE VERBOSE customers;
 
 DROP INDEX customers_name_idx;
